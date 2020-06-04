@@ -102,7 +102,7 @@ public class ImageFragment extends Fragment {
     protected void onPostExecute(List<Animal> animals) {
       super.onPostExecute(animals);
 
-      final String url = animals.get(40).getUrl();
+      final String url = animals.get(13).getUrl();
         contentView.loadUrl(url);
 
 
